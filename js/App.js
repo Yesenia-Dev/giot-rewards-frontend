@@ -8,7 +8,6 @@ let carouselWorker = new Worker("/js/carousel_worker.js");
 
 let currentImage = 1;
 
-
 let inputSubmitIdentifier;
 let inputSubmitPrev;
 let inputSubmitLogin;
@@ -28,7 +27,7 @@ function toStartView() {
 
     //helper.clearBody();
     helper.showComponent(body,components.header());
-    helper.showComponent(body, components.home())
+    //helper.showComponent(body, components.home())
     helper.showComponent(body,components.carousel());
     helper.showComponent(body,components.loginIdentifier());
 

@@ -19,6 +19,7 @@
 body {
     height: 100vh;
 }
+ 
 .header_giot {
     display: flex;
     height: 20%;
@@ -126,7 +127,7 @@ body {
 
     background-color: var(--gray-lighter2);
     padding: 5%;
-    height: 60%;
+    height: 80%;
     /*
     overflow: hidden;
     display: flex;
@@ -162,7 +163,13 @@ body {
 
 .section_consultar {
     height: 80%;
-    background-color: var(--gray-dark);
+    background-color: var(--gray-lighter);
+    padding: 5%;
+}
+
+.section_canjear {
+    height: 80%;
+    background-color: var(--yellow-light);
     padding: 5%;
 }
 
